@@ -1,0 +1,174 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-bg {
+    background-color: #874CCC;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* styles.css */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    color: white;
+    
+}
+
+.navbar-text .form-control {
+    width: auto;
+    min-width: 200px;
+}
+
+.navbar-text .btn {
+    margin-left: 5px;
+}
+
+
+
+main {
+    padding: 10px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.about-section{
+    background-color: #DCF2F1;
+    text-align: center;
+    justify-content: center;
+    line-height: 1cm;
+    font-size: 2em;
+    padding-top: 10px;
+    
+
+}
+.about-h1{
+    margin-bottom: 10px;
+}
+
+.about-section .zh-name{
+    color: #874CCC;
+    font-weight: 700;
+    
+}
+
+.service-section{
+    text-align: center;
+    font-weight: 700;
+    background-color: #44a08d;;
+
+}
+
+.card img{
+    width:100%;
+    height:auto;
+}
+
+
+.contact-section{
+    text-align: center;
+    justify-content: center;
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding: 15px;
+}
+
+
+
+.btnResume {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #850F8D;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btnResume:hover {
+    background-color: #F3CA52;
+}
+
+
+footer {
+    background-color: #ad5389;;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Home section with overlay */
+.home-section {
+    position: relative;
+    height: 100vh;
+    background: url('./images/zakir-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.home-section .overlay h1 {
+    font-size: 3em;
+    margin: 0;
+    margin-top: 40%;
+   
+}
+
+

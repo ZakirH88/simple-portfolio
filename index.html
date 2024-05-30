@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+        <!-- Bootstrap link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- header section start here -->
+    <header>
+        <nav class="navbar navbar-expand-lg header-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PORTFOLIO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary bg-warning" type="submit">Search</button>
+                        </form>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+  <!-- main section start here -->
+
+    <main>
+        <section id="home" class="home-section">
+            <div class="overlay">
+                <h1>Welcome to My Portfolio</h1>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="about-h1">About Me</h2>
+            <img src="./images/zakir-2.jpg"  style="max-width:100%;height:auto; alt: Zakir's picture;">
+            <p>Hello! I'm <span class="zh-name">Zakir Hossen</span>, an expert web developer with excellent skills in HTML5, CSS3, Bootstrap, JavaScript, jQuery, PSD to HTML5, and Responsive Web Design. My primary goal is to deliver successful projects that satisfy my client's needs. I strive to understand the actual requirements of my clients and continuously improve my work to exceed their expectations. I look forward to building a strong, positive relationship with you. Thank you for visiting my portfolio.</p>
+            <p>Regards,<br>Zakir</p>
+        </section>
+
+        <!-- service section start here -->
+        
+        <section id="services" class="service-section">
+            <h2>My Services</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./images/html-logo.png" class="card-img-top" alt="...">
+                  </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./images/css3.png" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./images/bootstrap.png" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./images/js-logo.png" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./images/reactjs.png" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./images/tailwindcss.png" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                
+            </div>
+            
+        </section>
+        <!-- contact section start here -->
+
+        <section id="contact" class="contact-section ">
+            <h2>GET IN TOUCH</h2>
+            <div class="col contact-us">
+                <div class="col">
+                    <button type="button" class="btn btn-success">Email: info.zakir85@gmail.com</button>
+                </div><br>
+                <div class="col">
+                    <button type="button" class="btn btn-secondary">Mobile No: 0188103388</button>
+                </div>
+                <div class="col">
+                    <a class="btnResume" href="./images/resume.pdf" download="resume.pdf">Download Resume</a>
+                </div>
+                
+            </div>
+                        
+        </section>
+    </main>
+    <!-- footer section start here -->
+    <footer>
+        <p>Copyright &copy; 2024 All right reserved by Zakir's Personal Portfolio</p>
+    </footer>
+    <!-- Bootstrap JavaScript plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <!-- mainjs file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
+
